@@ -14,6 +14,7 @@ const myIcon = L.icon({
   iconUrl: '/icon-location.svg',
   iconSize: [46, 56],
   // iconAnchor: [22, 94],
+
   // popupAnchor: [-3, -76],
   // shadowUrl: 'my-icon-shadow.png',
   // shadowSize: [68, 95],
