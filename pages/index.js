@@ -15,7 +15,7 @@ const ipUrl = 'http://ip-api.com/json/';
 export default function Home() {
   const windowWidth = useWindowWidth();
 
-  const MapWithNoSSR = dynamic(() => import('./../components/map'), {
+  const MapWithNoSSR = dynamic(() => import('../components/Map'), {
     ssr: false,
   });
 
